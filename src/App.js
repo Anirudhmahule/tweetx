@@ -12,17 +12,20 @@ function App() {
   return (
     <Router>
       <Routes>
-        {/* Protected Routes */}
-        <Route path="/" element={<ProtectedRoute element={<Feed />} />} />
-        <Route path="/users" element={<ProtectedRoute element={<Users />} />} />
-        <Route
-          path="/profile"
-          element={<ProtectedRoute element={<Profile />} />}
-        />
-
         {/* Public Routes */}
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<SignUp />} />
+        {/* Protected Routes */}
+        <Route path="/" element={<ProtectedRoute element={<Feed />} />} />{" "}
+        {/* Protected feed route */}
+        <Route
+          path="/protected/users"
+          element={<ProtectedRoute element={<Users />} />}
+        />
+        <Route
+          path="/protected/profile"
+          element={<ProtectedRoute element={<Profile />} />}
+        />
       </Routes>
     </Router>
   );
