@@ -18,5 +18,5 @@ TweetX is a social media application that allows users to share thoughts, and up
 
 ## Hosted Live Link
 
-You can access the live version of TweetX at [https://your-live-link.com](https://your-live-link.com).
+You can access the live version of TweetX at (https://tweetx-project.vercel.app/)https://tweetx-project.vercel.app/
 
