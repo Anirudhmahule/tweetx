@@ -19,9 +19,8 @@ function Login() {
       if (error) {
         throw error;
       }
-
+      navigate("/feed");
       // Navigate to the home page only if login was successful
-      window.location.href = "/";
     } catch (error) {
       console.error("Error logging in:", error.message);
       // Handle login error, display error message, etc.
