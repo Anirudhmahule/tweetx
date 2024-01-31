@@ -13,7 +13,6 @@ TweetX is a social media application that allows users to share thoughts, and up
 
 ### Backend and Authentication:
 - **Supabase**: Supabase is leveraged as the backend service for TweetX, providing database management, authentication, and real-time updates.
-- **Protected Routes**: Authentication and authorization are implemented using protected routes, ensuring that only authenticated users can access certain application parts.
 
 
 
